@@ -15,7 +15,7 @@ public class UserSession {
 
 
         mContext=context;
-        preferences=context.getSharedPreferences("userDetails",Context.MODE_PRIVATE);
+        preferences=context.getSharedPreferences("user",Context.MODE_PRIVATE);
         editor=preferences.edit();
 
 
